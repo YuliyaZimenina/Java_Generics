@@ -239,7 +239,7 @@ public class GenericArray <T extends Comparable<T>> {
         return lengthArray;
     }
 
-    //метод для выбора способа заполнения массива
+    //Method for choosing the way to fill the array
     public int choiceMethodFillArray() {
         System.out.println("Choose a way to fill the array: ");
         System.out.println("1 - Fill an array with random values");
